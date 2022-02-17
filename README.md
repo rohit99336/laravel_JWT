@@ -137,7 +137,7 @@ Now we need to modify User model. Open App/Models/User.php file and implement Ty
         }
     }
 
-Step 5: Configure default authentication guard
+### Step 5: Configure default authentication guard
 The default authentication guard is web. We need to change it to api. Open config/auth.php file and change default guard to api.
 
     <?php
