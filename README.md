@@ -1,9 +1,7 @@
-### I have implemented JWT Auth system in Laravel in this project, whose complete procedure is given here, by following this you can easily implement JWT in Laravel easily.
-
+### I have implemented JWT Auth system in Laravel in this project, whose complete procedure is given here, by following this you can easily implement JWT in Laravel easily
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="200"></a>
 </p>
-
 
 ## Learning Laravel
 
@@ -47,7 +45,7 @@ In the tutorial, the first step is to create new Laravel application. We will us
 
 if you getting version problem and istall diffrent version of laravel use bellow command.
 
-    composer create-project laravel/laravel project project name version
+    composer create-project laravel/laravel project name version
 
 for example -
 
@@ -138,6 +136,7 @@ Now we need to modify User model. Open App/Models/User.php file and implement Ty
     }
 
 ### Step 5: Configure default authentication guard
+
 The default authentication guard is web. We need to change it to api. Open config/auth.php file and change default guard to api.
 
     <?php
