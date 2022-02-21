@@ -45,7 +45,7 @@ In the tutorial, the first step is to create new Laravel application. We will us
 
 if you getting version problem and istall diffrent version of laravel use bellow command.
 
-    composer create-project laravel/laravel project name version
+    composer create-project laravel/laravel projectName version
 
 for example -
 
